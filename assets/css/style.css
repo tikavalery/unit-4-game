@@ -1,0 +1,68 @@
+body{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+#CrystalCollector{
+    background-color: brown;
+
+}
+
+#instructions{
+    background-color: bisque;
+    color: rgb(69, 117, 117);
+    width: 50%;
+    line-height:30px;
+    
+}
+
+#computer-number{
+width: 25%;
+height:20%;
+background-color: rgb(48, 138, 141);
+margin-right: 10px;
+float: left;
+
+
+}
+
+#wins-losses{
+    float: left;
+    width: 15%;
+    height:20%;
+    background-color:  rgb(93, 167, 180)
+}
+#losses-label{
+    padding-top:20px;
+}
+
+
+#images{
+    clear: both; 
+    float: left; 
+    display: block;
+     position: relative;
+
+}
+img{
+    height: 10%;
+width:11%;
+margin:10px;}
+
+#your-score{
+    width: 25%;
+    height:20%;
+    background-color: rgb(48, 138, 141);
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    top:50px;
+    left:-130px;
+
+    
+}
+#score-label{float: left;}
