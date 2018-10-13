@@ -38,7 +38,7 @@ $("#one").click(function(){
 // check if currentUsersCrystal === targetCrystal
  if (currentUsersCrystal === targetCrystal){
   wins++;
-  alert(wins);
+ 
   $("#wins").text(wins);
   crystals(1,12);
   $("#your-score").text(currentUsersCrystal=0);
@@ -69,7 +69,6 @@ $("#two").click(function(){
   // check if currentUsersCrystal === targetCrystal
   if (currentUsersCrystal === targetCrystal){
     wins++;
-    alert(wins);
     $("#wins").text(wins);
     crystals(1,12);
     $("#your-score").text(currentUsersCrystal=0);
@@ -95,7 +94,6 @@ $("#two").click(function(){
 
   if (currentUsersCrystal === targetCrystal){
     wins++;
-    alert(wins);
     $("#wins").text( wins);
     crystals(1,12);
     $("#your-score").text(currentUsersCrystal=0);
@@ -122,7 +120,6 @@ $("#two").click(function(){
 
   if (currentUsersCrystal === targetCrystal){
     wins++;
-    alert(wins);
     $("#wins").text( wins);
    crystals(1,12);
    $("#your-score").text(currentUsersCrystal=0);
