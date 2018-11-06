@@ -17,7 +17,7 @@ var targetCrystal;
 // Create a function that sets crystals 1 - 4 with a random number between 1 - 12
 function crystals(min,max){return Math.floor(Math.random()*(max-min))+min;
 }
- alert(crystals(1,12));
+
   crystalOne=crystals(1,12);
   crystalTwo=crystals(1,12);
   crystalThree=crystals(1,12);
